@@ -1,0 +1,6 @@
+DELETE http://localhost:3333/api/eliminar/100101
+Content-Type:  application/json
+
+{
+
+}
