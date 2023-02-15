@@ -21,11 +21,12 @@
   },
   "dependencies": {
     "@adonisjs/core": "^5.9.0",
-    "@adonisjs/lucid": "^18.3.0",
+    "@adonisjs/lucid": "^10.0.0",
     "@adonisjs/repl": "^3.1.11",
     "adonis-lucid": "^3.0.16",
     "luxon": "^3.2.1",
     "mysql2": "^3.1.0",
+    "pg": "^8.9.0",
     "proxy-addr": "^2.0.7",
     "reflect-metadata": "^0.1.13",
     "source-map-support": "^0.5.21"

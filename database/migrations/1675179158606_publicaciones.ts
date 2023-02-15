@@ -8,7 +8,7 @@ export default class extends BaseSchema {
       table.integer('codigo_publicacion').primary().unsigned()
       table.string('titulo',100).notNullable()
       table.string('cuerpo',200).notNullable()
-      table.integer('codigo_usuario').unsigned().index('codigo_usuario')
+      table.integer('codigo_usuario').unsigned().index('publicaciones_codigo_usuario')
       table.foreign('codigo_usuario').references('usuarios.codigo_usuario').onDelete('cascade')
       table.timestamps(false)
     })

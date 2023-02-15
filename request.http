@@ -1,6 +1,10 @@
-DELETE http://localhost:3333/api/eliminar/100101
+POST http://localhost:3333/api/registro-usuarios
 Content-Type:  application/json
 
 {
-
+ "codigo_usuario": 12,
+ "nombre_usuario": "Juan Perez",
+ "contrasena": "a",
+ "email": "a@gmail.com",
+ "telefono": 65454875
 }
